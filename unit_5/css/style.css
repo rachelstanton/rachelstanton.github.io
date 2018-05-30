@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Chivo:900');
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	color: #000000;
+	line-height: 1.3;
+}
+
+header {
+	font-family: 'Chivo', sans-serif;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	color: #000000;
+}
+
+h2 {
+	font-style: bold;
+	padding-left: 20px;
+}
+
+#slogan {
+	font-weight: bold;
+}
+
+nav {
+	background-color: #E8C66A;
+	font-family: 'Crimson Text', serif;
+	color: #000000;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	margin: 20px;
+	padding-left: 30px;
+}
+
+p {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+h2, h3, h4 {
+	margin: 20px 10px;
+	padding-left: 10px;
+}
+
+.features {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color:#FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div, section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.bodytext {
+	color:#000000;
+}
+
+
+footer {
+	font-family: 'Chivo',sans-serif;
+	background-color:#FF957E;
+	line-height: 20px;
+	text-align: center;
+	text-transform: lowercase;
+	font-weight: bold;
+	color: #000000;
+	border: 1px black solid;
+	padding: 20px;
+}
