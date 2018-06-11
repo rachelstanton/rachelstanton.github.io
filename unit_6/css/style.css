@@ -26,7 +26,6 @@ header {
 
 nav {
 	text-align: center;
-	/*background-color: #000000;*/
 }
 
 nav a:link {
@@ -110,7 +109,6 @@ i {
 }
 
 .wrapper{
-	/*background-color: #ffffff;*/
 	background-color: #ffffff;
 	width: 90%
 	margin: auto;
@@ -118,7 +116,6 @@ i {
 
 .blogposts {
 	width:22%;
-	/*background-color: #C5D4C5;*/
 	background-color: #ffffff;
 	margin: 1.5%;
 	float: left;
@@ -140,7 +137,6 @@ i {
 	float: left;
 	padding-right: 20px;
 	padding-left:20px;
-	/*background-color: #CDF2EE;*/
 	background-color: #ffffff;
 	display:block;
 
