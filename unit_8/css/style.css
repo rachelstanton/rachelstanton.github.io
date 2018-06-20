@@ -215,7 +215,7 @@ footer {
 		height: 454px; 
 	}
 
-	@media screen and (max-width: 1099px) {
+@media screen and (max-width: 1099px) {
 	.blogposts {
 		width: auto;
 		float:none;
@@ -226,6 +226,14 @@ footer {
 	#slogan {
 		text-align: center;
 		float: none;
+	}
+
+@media screen and (max-width: 480px) {
+	#slogan {
+		text-align: center;
+		float: none;
+		font-size: .6em;
+		letter-spacing: 3px;
 	}
 
 @media screen and (max-width: 622px){
