@@ -126,6 +126,10 @@ h2, h3, h4 {
 	color: #000000;
 }
 
+i {
+	font-style: italic;
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -151,6 +155,10 @@ h2, h3, h4 {
 .blogposts h3 {
 	font-size: 1.3em;
 	color: #5ac5b2;
+}
+
+.blogposts h3:hover {
+	opacity: .5;
 }
 
 .blogposts img{
@@ -183,6 +191,11 @@ h2, h3, h4 {
 	text-align: left;
 	font-size: 2em;
 	color: #5ac5b2;
+}
+
+#about a {
+	color: #5ac5b2;
+	font-family: 'Crimson Text', serif;
 }
 
 main {
