@@ -31,7 +31,7 @@ nav {
 nav a:link {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #C5D4C5;
-	margin: 0 32px;
+	margin: 0 20px;
 	font-size: 1em;
 	text-decoration: none;
 	padding-bottom: 20px;
@@ -62,6 +62,10 @@ a:hover {
 	color: #ffffff;
 }
 
+.bodylinks {
+	color: #5ac5b2;
+}
+
 h1 {
 	color: #ffffff;
 }
@@ -89,6 +93,7 @@ label{
 	text-align: center;
 	font-size: .8em;
 	letter-spacing: 3px;
+	padding-right: 20px;
 }
 
 #lander {
@@ -102,8 +107,8 @@ label{
 	display: none;
 }
 
+
 img {
-	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -121,10 +126,6 @@ h2, h3, h4 {
 	color: #000000;
 }
 
-i {
-	font-style: italic;
-}
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -134,7 +135,6 @@ i {
     height: 0;
 }
 
-
 .wrapper {
 	background-color: #ffffff;
 	width: 100%;
@@ -143,23 +143,24 @@ i {
 
 .blogposts {
 	width:22%;
-	background-color: yellow;
-	margin: 1.5%;
+	margin: 1.2%;
 	float: left;
-}
-
-.blogposts:hover > h3{
-	opacity: 1;
+	padding-right: 5px;
 }
 
 .blogposts h3 {
 	font-size: 1.3em;
+	color: #5ac5b2;
 }
 
 .blogposts img{
 	max-width: 100%;
 	display: block;
 	margin: auto;
+}
+
+.blogposts p {
+	color: #6B6B6B;
 }
 
 .about {
@@ -173,24 +174,24 @@ i {
 
 }
 
+.about p {
+	color: #6B6B6B;
+}
+
 #about h3{
 	font-family: 'Chivo', sans-serif;
 	text-align: left;
 	font-size: 2em;
-}
-
-hr {
-	border-top: 5px solid #000000;
-	margin: 1.5%;
+	color: #5ac5b2;
 }
 
 main {
-	background-color:#484f48;
+	background-color:#ffffff;
 	padding:50px 0;
 }
 
 section {
-	padding: 50px 0;
+	padding: 40px 0;
 }
 
 .bodytext {
@@ -200,13 +201,14 @@ section {
 
 footer {
 	font-family: 'Josefin Sans',sans-serif;
-	background-color:#484f48;
 	line-height: 20px;
 	text-align: center;
 	text-transform: lowercase;
-	font-weight: bold;
 	color: #ffffff;
-	padding: 60px 0;
+	background-color: #484f48;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-right: 30px;
 }
 
 @media screen and (max-width: 1245px) {
@@ -232,7 +234,7 @@ footer {
 	#slogan {
 		text-align: center;
 		float: none;
-		font-size: .6em;
+		font-size: .7em;
 		letter-spacing: 3px;
 	}
 
