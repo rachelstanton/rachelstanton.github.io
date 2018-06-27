@@ -224,7 +224,7 @@ footer {
 		height: auto;
 	}
 
-@media screen and (max-width: 809px) {
+@media screen and (max-width: 850px) {
 	#slogan {
 		text-align: center;
 		float: none;
