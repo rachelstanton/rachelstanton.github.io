@@ -180,6 +180,15 @@ i {
 	color: #6B6B6B;
 }
 
+.bodytext {
+	color:#000000;
+	font-size: .8em;
+}
+
+.fa:hover {
+	opacity: .4;
+}
+
 .about {
 	font-family: 'Crimson Text', serif;
 	margin: 1.5%;
@@ -189,10 +198,6 @@ i {
 	background-color: #ffffff;
 	display:block;
 
-}
-
-.fa:hover {
-	opacity: .4;
 }
 
 .about p {
@@ -218,11 +223,6 @@ main {
 
 section {
 	padding: 40px 0;
-}
-
-.bodytext {
-	color:#000000;
-	font-size: .8em;
 }
 
 footer {
@@ -263,6 +263,15 @@ footer {
 		font-size: .6em;
 		letter-spacing: 3px;
 	}
+
+	#divider {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+	width: 100px;
+	height: 100px;
+}
 
 @media screen and (max-width: 622px){
 	nav{
