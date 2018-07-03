@@ -62,13 +62,6 @@ a:hover {
 	color: #ffffff;
 }
 
-.bodylinks {
-	color: #5ac5b2;
-}
-
-.bodylinks:hover {
-	color: #C5D4C5;
-}
 
 h1 {
 	color: #ffffff;
@@ -78,6 +71,23 @@ h2 {
 	font-style: bold;
 	padding-left: 20px;
 	font-size: .8em;
+}
+
+h2, h3, h4 {
+	margin: 20px 10px;
+	padding-left: 10px;
+	text-align: center;
+	color: #000000;
+}
+
+p {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+
+i {
+	font-style: italic;
 }
 
 label{
@@ -90,56 +100,10 @@ label{
 	display: none;
 }
 
-#slogan {
-	font-family: 'Josefin Sans', sans-serif;
-	color: #ffffff;
-	background: #484f48;
-	text-align: center;
-	font-size: .8em;
-	letter-spacing: 3px;
-	padding-right: 20px;
-}
-
-#lander {
-	background:url(../assets/landerb.jpg) no-repeat center center scroll;
-	background-size: cover;
-	height: 350px;
-	padding: 20px 0;
-}
-
-#toggle {
-	display: none;
-}
-
-#divider {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 40px;
-	width: 150px;
-	height: 150px;
-}
-
 img {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-}
-
-p {
-	padding-left: 20px;
-	padding-bottom: 10px;
-}
-
-h2, h3, h4 {
-	margin: 20px 10px;
-	padding-left: 10px;
-	text-align: center;
-	color: #000000;
-}
-
-i {
-	font-style: italic;
 }
 
 .clearfix:after {
@@ -189,6 +153,14 @@ i {
 	font-size: .8em;
 }
 
+.bodylinks {
+	color: #5ac5b2;
+}
+
+.bodylinks:hover {
+	color: #C5D4C5;
+}
+
 .fa:hover {
 	opacity: .4;
 }
@@ -213,6 +185,36 @@ i {
 	text-align: left;
 	font-size: 2em;
 	color: #5ac5b2;
+}
+
+#slogan {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #ffffff;
+	background: #484f48;
+	text-align: center;
+	font-size: .8em;
+	letter-spacing: 3px;
+	padding-right: 20px;
+}
+
+#lander {
+	background:url(../assets/landerb.jpg) no-repeat center center scroll;
+	background-size: cover;
+	height: 350px;
+	padding: 20px 0;
+}
+
+#divider {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+	width: 150px;
+	height: 150px;
+}
+
+#toggle {
+	display: none;
 }
 
 main {
